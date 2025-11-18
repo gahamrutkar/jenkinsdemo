@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Extract Data'){
             steps{
-                bat "C:\\Users\\giris\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+                bat "C:\\Users\\giris\\AppData\\Local\\Programs\\Python\\Python313\\python.exe extract.py"
             }
         }
     }
